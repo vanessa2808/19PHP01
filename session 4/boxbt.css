@@ -1,0 +1,27 @@
+body{
+	border: 2px dotted black;
+	height: 530px;
+	width: 400px;
+}
+div#B{
+	border: 2px solid black;
+	height: 400px;
+	width: 300px;
+	margin: 50px;
+	padding-top: 30px;
+
+}
+div#box1{
+	border:2px dotted black;
+	height: 100px;
+	width: 200px;
+	margin: 50px;
+	padding-top: 30px;
+}
+div#box2{
+	border:2px dotted black;
+	height: 100px;
+	width: 200px;
+	margin: 50px;
+	padding-top: 30px;
+}
