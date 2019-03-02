@@ -1,10 +1,10 @@
-div#containers{
+body{
 	color: red;
-	height: 634px;
+	height:634px;
 	width: 500px;
 	border: 2px solid red;
 }
-div#header{
+header{
 	color: purple;
 	height: 98px;
 	width: 488px;
@@ -14,7 +14,7 @@ div#header{
 	text-align: center;
 	line-height: 50px
 }
-div#menu{
+section{
 	color: purple;
 	height: 48px;
 	width: 488px;
@@ -24,7 +24,7 @@ div#menu{
 	text-align: center;
 	line-height: 25px;
 }
-div#content{
+nav{
 	color: purple;
 	height: 398px;
 	width: 488px;
@@ -34,7 +34,7 @@ div#content{
 	text-align: center;
 	line-height: 200px;
 }
-div#footer{
+footer{
 	color: purple;
 	height: 48px;
 	width: 488px;
