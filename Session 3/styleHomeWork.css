@@ -1,0 +1,46 @@
+div#containers{
+	color: red;
+	height: 634px;
+	width: 500px;
+	border: 2px solid red;
+}
+div#header{
+	color: purple;
+	height: 98px;
+	width: 488px;
+	padding: 2px;
+	margin: 2px;
+	border: 2px solid red;
+	text-align: center;
+	line-height: 50px
+}
+div#menu{
+	color: purple;
+	height: 48px;
+	width: 488px;
+	padding: 2px;
+	margin: 2px;
+	border: 2px solid red;
+	text-align: center;
+	line-height: 25px;
+}
+div#content{
+	color: purple;
+	height: 398px;
+	width: 488px;
+	padding: 2px;
+	margin: 2px;
+	border: 2px solid red;
+	text-align: center;
+	line-height: 200px;
+}
+div#footer{
+	color: purple;
+	height: 48px;
+	width: 488px;
+	padding: 2px;
+	margin: 2px;
+	border: 2px solid red;
+	text-align: center;
+	line-height: 25px
+}
