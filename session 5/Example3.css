@@ -1,0 +1,24 @@
+
+/*define font-face*/
+@font-face{
+	font-family: myNewFont;
+	src:url('font.ttf');
+}
+.demo{
+	font-family: "courier php";
+	font-size: 30px;
+	font-style: italic;
+	font-weight: bold;
+	text-indent: 40px;
+	text-align: center;
+	width: 300px;
+	border: green solid;
+	padding:5px;
+	font-family: "myNewFont";
+}
+.demo1{
+	color: red;
+	text-decoration: line-through;
+	text-transform: uppercase;
+	text-shadow: 3px 4px 5px gray;
+}

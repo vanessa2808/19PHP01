@@ -1,0 +1,74 @@
+header{
+	border: 1px solid black;
+}
+section{
+	border: 1px solid black;
+}
+footer{
+	border: 1px solid black;
+}
+.logo{
+	float: left;
+	width: 40%;
+	height: 100px;
+	color: white;
+	background-color: green;
+	border-right: 1px;
+	line-height: 70px;
+}
+
+.banner{
+	float: left;
+	width: 59.7%;
+	height: 100px;
+	color: white;
+	border-bottom: 1px;
+	line-height: 70px;
+	background-color: green;
+}
+#menu{
+	height: 200px;
+	width: 100%;
+	color: white;
+	background-color: green;
+	border-bottom: 1px solid black;
+	line-height: 120px;
+}
+#content{
+	height: 400px;
+	width: 100%;
+	color: white;
+	background-color: green;
+	line-height: 280px;
+	border-bottom: none;
+}
+.footer-left{
+	float: left;
+	width: 40%;
+	height: 200px;
+	background-color: orange;
+	border-right: 1px solid black;
+	color: white;
+	line-height: 160px;
+}
+.footer-right{
+	width: 59.7%;
+	height: 200px;
+	background-color: orange;
+	border-right: 1px solid black;
+	color: white;
+	float: left;
+	line-height: 160px;
+}
+div{
+	text-align: center;
+}
+.footer-left.logo{
+	float: left;
+	width: 500px;
+	height: 100px;
+	color: white;
+	background-color: green;
+	border: 1px solid black;
+	line-height: 60px;
+}
