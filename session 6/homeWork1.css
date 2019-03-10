@@ -1,0 +1,149 @@
+*{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 80%;
+	border: 1px solid black;
+	margin: 0 auto;
+	border-bottom: none;
+}
+header{
+	height: 100px;
+	border-bottom:1px solid black;
+}
+.logo{
+	height: 100px;
+	width: 40%;
+	float: left;
+}
+.slogo{
+	height: 100px;
+	width: 55%;
+	float: left;
+	border-left: 1px solid black;
+}
+#slider{
+	height: 100px;
+
+}
+#main{
+	width: 80.1%;
+	margin: 0 auto;
+}
+.new1{
+	height: 100px;
+	width: 33.1%;
+	float: left;
+	border-top: none;
+
+}
+.new2{
+	height: 100px;
+	width: 33.2%;
+	float: left;
+	border: 1px solid black;
+	border-top: none;
+	border-bottom: none;
+	border-right: none;
+}
+.new3{
+	height: 100px;
+	width: 33.3%;
+	float: left;
+	border-left: 1px solid black;
+}
+.ads1{
+ 	height: 100px;
+ 	width: 66.4%;
+ 	float: left;
+ 	border: 1px solid black;
+ 	border-right: none;
+}
+.ads2{
+ 	height: 100px;
+ 	width: 33.1%;
+ 	float: left;
+ 	border:1px solid black;
+ 	border-right: none;
+}
+#content{
+	height: 300px;
+	border:1px solid black;
+}
+.footer{
+	width: 80.1%;
+	height: 100px;
+	margin: 0 auto;
+}
+.footer1{
+	width: 49.8%;
+	height: 100px;
+	float: left;
+	border-left:1px solid black;
+	border-bottom:1px solid black;
+
+}
+.footer2{
+	width: 49.8%;
+	height: 100px;
+	float: left;
+	border:1px solid black;
+	border-top: none;
+}
+@media screen and (max-width: 1024px){
+}
+@media screen and (max-width: 768px){
+	.new2{
+		width: 50%;
+	}
+	.new3{
+		width: 70%;
+	}
+	.content{
+		width: 10%;
+	}
+	.footer2{
+		width:49.4%;
+	}
+}
+@media screen and (max-width: 480px){
+	.logo{
+		width: 100%;
+	}
+	.slogo{
+		width: 100%;
+	}
+	.new1{
+		width: 100%;
+		border-bottom: 1px solid black;
+	}
+	.new2{
+		width: 100%;
+		border-bottom: 1px solid black;
+	}
+	.new3{
+		width: 100%;
+	}
+	.ads1{
+		width: 100%;
+		border-right: 1px solid black;
+	}
+	.ads2{
+		display: hide;
+		width: 100%;
+		border-right: 1px solid black;
+	}
+	.content{
+		width: 100%;
+	}
+	.footer1{
+		width: 100%;
+		border:1px solid black;
+	}
+	.footer2{
+		width:100%;
+		border:1px solid black;
+	}
+}

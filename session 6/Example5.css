@@ -36,18 +36,18 @@ header{
 }
 @media screen and (max-width: 555px){
 	.logo{
-		width: 49.9%;
+		width: 30%;
 	}
 	.banner{
-		width: 49.9%;
+		width: 30%;
 	}
 }
 @media screen and (max-width: 480px){
 	.logo{
-		width: 49.9%;
+		width: 20%;
 	}
 	.banner{
-		width: 49.9%;
+		width: 20%;
 
 	}
 }
