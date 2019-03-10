@@ -1,0 +1,116 @@
+ol { 
+	counter-reset: item ;
+}
+li{
+	 display: block ;
+}
+li:before {
+	 content: counters(item, ".") " "; 
+	 counter-increment: item 
+}
+body{
+	width: 70%;
+	margin: 0 auto;
+	border-spacing: 0px;
+	margin-top: 16px;
+
+}
+.box{
+	height: 70px;
+	background-color: #66a3ff;
+	border: 10px dashed grey;
+	border-right: none;
+	border-left: none;
+}
+.brand{
+	float: left;
+	height: 30px;
+	width: 25%;
+	margin-left: none;
+	background-color: #b3d1ff;
+}
+.global{
+	float: left;
+	height: 30px;
+	width: 40%;
+	margin-left: 20px;
+	background-color: #b3d1ff;
+}
+.tools{
+	float: left;
+	height: 30px;
+	width: 30%;
+	margin-left: 20px;
+	background-color: #b3d1ff;
+}
+.box1{
+	width: 68%;
+	height: 110px;
+	float: left;
+	background-color: #66a3ff;
+	margin-top: 15px;
+}
+.heroFeture{
+	height: 80px;
+	width: 66%;
+	background-color: #b3d1ff;
+	float: left;
+}
+.heroColl{
+	height: 80px;
+	width: 30%;
+	background-color: #b3d1ff;
+	margin-left: 13px;
+	float: left;
+}
+.box2{
+	float: left;
+	height: 110px;
+	width: 30%;
+	margin-left: 15px;
+	margin-top: 15px;
+	background-color: #66a3ff;
+	text-align: center;
+	line-height: 90px;
+}
+.box3{
+	width: 68%;
+	height: 260px;
+	float: left;
+	background-color: #66a3ff;
+	margin-top: 15px;
+}
+.articleFeature{
+	height: 210px;
+	width: 30%;
+	background-color: #b3d1ff;
+	float: left;
+}
+.articalListing{
+	height: 210px;
+	width: 65%;
+	background-color: #b3d1ff;
+	float: left;
+	margin-left: 15px;
+}
+.box4{
+	float: left;
+	height: 260px;
+	width: 30%;
+	background-color: #66a3ff;
+	margin-left: 15px;
+	margin-top:15px;
+}
+.sidebar{
+	height: 210px;
+	width: 81%;
+	background-color: #b3d1ff;
+}
+.box5{
+	height: 120px;
+	width: 100%;
+	float: left;
+	background-color: #66a3ff;
+	margin-top: 15px;
+}
+
