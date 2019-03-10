@@ -50,7 +50,7 @@ header{
 }
 .new3{
 	height: 100px;
-	width: 33.3%;
+	width: 33.2%;
 	float: left;
 	border-left: 1px solid black;
 }
@@ -76,36 +76,74 @@ header{
 	width: 80.1%;
 	height: 100px;
 	margin: 0 auto;
+	border:1px solid black;
+	border-top: none;
 }
 .footer1{
 	width: 49.8%;
 	height: 100px;
 	float: left;
-	border-left:1px solid black;
-	border-bottom:1px solid black;
-
+	border-right:1px solid black;
 }
 .footer2{
 	width: 49.7%;
 	height: 100px;
-	float: left;
-	border:1px solid black;
-	border-top: none;
+	float: left;	
 }
 @media screen and (max-width: 1024px){
-}
-@media screen and (max-width: 768px){
-	.new2{
-		width: 50%;
+	#slider{
+		border-bottom: 1px solid black;
+	}
+	.new1{
+		border-left: 1px solid black;
+		border-bottom: none;
 	}
 	.new3{
-		width: 70%;
+		border-right: 1px solid black;
+		border-bottom: none;
+	}
+	.ads1{
+		border-top: none;
+	}
+	.ads2{
+		border-top: none;
+	}
+}
+@media screen and (max-width: 768px){
+	.new1{
+		width: 50%;
+		border-left: 1px solid black;
+	}
+	#slider{
+		width: 100%;
+		border-bottom: 1px solid black;
 	}
 	.content{
-		width: 10%;
+		width: 100%;
+	}
+	.new2{
+		width: 49.5%;
+		border-right: 1px solid black;
+	}
+	.new3{
+		width: 100%;
+		line-height: 60px;
+		border-bottom: 1px solid black;
+		border-right: none;
+		border-top: none;
+	}
+	.content{
+		width: 50%;
 	}
 	.footer2{
 		width:49.4%;
+	}
+	.ads1{
+		width: 100%;
+	}
+	.ads2{
+		width: 0%;
+		display: none;
 	}
 }
 @media screen and (max-width: 480px){
@@ -114,6 +152,11 @@ header{
 	}
 	.slogo{
 		width: 100%;
+		border-right: 1px solid black;
+	}
+	#slider{
+		width: 0%;
+		display: none;
 	}
 	.new1{
 		width: 100%;
@@ -122,25 +165,27 @@ header{
 	.new2{
 		width: 100%;
 		border-bottom: 1px solid black;
+		border-right: none;
 	}
 	.new3{
-		width: 100%;
+		width: 0%;
+		display: none;
 	}
 	.ads1{
 		width: 100%;
-		border-right: 1px solid black;
 	}
 	.ads2{
-		display: hide;
-		width: 100%;
-		border-right: 1px solid black;
+		width: 0%;
+		display: none;
+		
 	}
 	.content{
-		width: 100%;
+		width: 50%;
+		border:1px solid black;
 	}
 	.footer1{
 		width: 100%;
-		border:1px solid black;
+
 	}
 	.footer2{
 		width:100%;
