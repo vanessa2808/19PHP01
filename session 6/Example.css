@@ -1,0 +1,25 @@
+
+
+img{
+	float: left;
+}
+h1{
+	color: green;
+	text-shadow: 3px 4px 5px grey;
+}
+h4{
+	color: green;
+	padding-bottom: 40px;
+}
+.color{
+	color: grey;
+}
+.color1{
+	color: green;
+}
+.demo{
+	text-indent: 40px;
+}
+.address{
+	float: right;
+}

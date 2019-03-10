@@ -1,0 +1,16 @@
+.demo{
+	height: 300px;
+	width: 300px;
+	border: 1px solid black;
+	border-radius: 50%;
+	box-shadow: 1px 3px 5px grey;
+	background-color: green;
+	background-image: url('alarm.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.demo1{
+	height: 300px;
+	width: 600px;
+	background-image: linear-gradient(to left, green,blue);
+}

@@ -1,0 +1,36 @@
+body{
+	background-image: linear-gradient(to left, green,blue);
+	min-height: 700px;
+
+}
+.containers{
+	background-color: #fff;
+	border:1px solid black;
+	border-radius: 40px;
+	box-shadow: 12px 4px 4px grey;
+	width: 60%;
+	margin: 0 auto;
+}
+img{
+	float: left;
+}
+h1{
+	color: green;
+	text-shadow: 3px 4px 5px grey;
+}
+h4{
+	color: green;
+	padding-bottom: 40px;
+}
+.color{
+	color: grey;
+}
+.color1{
+	color: green;
+}
+.demo{
+	text-indent: 40px;
+}
+.address{
+	float: right;
+}
