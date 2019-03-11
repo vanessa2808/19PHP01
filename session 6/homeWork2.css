@@ -32,6 +32,8 @@ body{
 	width: 25%;
 	margin-left: none;
 	background-color: #b3d1ff;
+	text-align: center;
+	line-height: 20px;
 }
 .global{
 	float: left;
@@ -39,6 +41,8 @@ body{
 	width: 37%;
 	margin-left: 20px;
 	background-color: #b3d1ff;
+	text-align: center;
+	line-height: 20px;
 }
 .tools{
 	float: left;
@@ -46,6 +50,8 @@ body{
 	width: 30%;
 	margin-left: 20px;
 	background-color: #b3d1ff;
+	text-align: center;
+	line-height: 20px;
 }
 .box1{
 	width: 68%;
@@ -59,6 +65,8 @@ body{
 	width: 66%;
 	background-color: #b3d1ff;
 	float: left;
+	text-align: center;
+	line-height: 60px;
 }
 .heroColl{
 	height: 80px;
@@ -66,6 +74,8 @@ body{
 	background-color: #b3d1ff;
 	margin-left: 13px;
 	float: left;
+	text-align: center;
+	line-height: 50px;
 }
 .box2{
 	float: left;
@@ -74,8 +84,6 @@ body{
 	margin-left: 15px;
 	margin-top: 15px;
 	background-color: #66a3ff;
-	text-align: center;
-	line-height: 90px;
 }
 .box3{
 	width: 68%;
@@ -90,6 +98,8 @@ body{
 	width: 30%;
 	background-color: #b3d1ff;
 	float: left;
+	text-align: center;
+	line-height: 170px;
 }
 .articalListing{
 	height: 210px;
@@ -97,6 +107,8 @@ body{
 	background-color: #b3d1ff;
 	float: left;
 	margin-left: 15px;
+	text-align: center;
+	line-height: 170px;
 }
 .box4{
 	float: left;
@@ -111,6 +123,8 @@ body{
 	height: 210px;
 	width: 81%;
 	background-color: #b3d1ff;
+	text-align: center;
+	line-height: 170px;
 }
 .box5{
 	height: 120px;
