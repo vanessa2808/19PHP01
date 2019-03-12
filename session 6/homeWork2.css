@@ -1,4 +1,5 @@
 ol { 
+
 	counter-reset: item ;
 }
 li{
@@ -12,7 +13,6 @@ body{
 	width: 70%;
 	height: 669px;
 	margin: 0 auto;
-	border-spacing: 0px;
 	margin-top: 16px;
 	border:5px solid grey;
 	border-left: none;
@@ -22,14 +22,14 @@ body{
 	height: 70px;
 	width: 97%;
 	background-color: #66a3ff;
-	border: 10px dashed grey;
+	border:  10px dashed grey;
 	border-right: none;
 	border-left: none;
 }
 .brand{
 	float: left;
 	height: 30px;
-	width: 25%;
+	width: 30%;
 	margin-left: none;
 	background-color: #b3d1ff;
 	text-align: center;
@@ -38,7 +38,7 @@ body{
 .global{
 	float: left;
 	height: 30px;
-	width: 37%;
+	width: 33%;
 	margin-left: 20px;
 	background-color: #b3d1ff;
 	text-align: center;
@@ -46,7 +46,7 @@ body{
 }
 .tools{
 	float: left;
-	height: 30px;
+	height: 28px;
 	width: 30%;
 	margin-left: 20px;
 	background-color: #b3d1ff;
@@ -62,7 +62,7 @@ body{
 }
 .heroFeture{
 	height: 80px;
-	width: 66%;
+	width: 55%;
 	background-color: #b3d1ff;
 	float: left;
 	text-align: center;
@@ -70,7 +70,7 @@ body{
 }
 .heroColl{
 	height: 80px;
-	width: 30%;
+	width: 40%;
 	background-color: #b3d1ff;
 	margin-left: 13px;
 	float: left;
@@ -83,7 +83,9 @@ body{
 	width: 27.5%;
 	margin-left: 15px;
 	margin-top: 15px;
-	background-color: #66a3ff;
+	background-color: #0040ff;
+	text-align: center;
+	line-height: 85px;
 }
 .box3{
 	width: 68%;
@@ -135,12 +137,96 @@ body{
 	border-bottom: 10px dashed grey;
 	border-top: 10px dashed grey;
 }
-@media screen and (max-width: 1024){
+@media screen and (max-width: 1024px){
 
 }
-@media screen and (max-width: 1024){
+@media screen and (max-width: 768px){
+	body{
+		width:70%;
+		height: 750px;
+		border:5px solid grey;
+		border-bottom: none;
+		border-top: none;
+		padding-top: 8px;
+	}
+	.global{
+		width: 35%;
+	}
+	.brand{
+		width: 25%;
+	}
+	.tools{
+		width: 25%;
+	}
+
+	.heroFeture{
+		width: 99%;
+		height: 40px;
+		margin-bottom: 5px;
+	}
+	.heroColl{
+		width: 99%;
+		height: 40px;
+		margin: 0;
+		
+	}
+	.box1{
+		width: 97%;
+	}
+	.box3{
+		width: 70%;
+		height: 280px; 
+  		border-top: none;
+	}
+	.articleFeature{
+		width: 100%;
+		height: 60px;
+		float: left;
+		text-align: center;
+		line-height: 60px;
+		margin-bottom: 38px;
+	}
+	.articalListing{
+		width: 147%;
+		height: 160px;
+		text-align: center;
+		line-height: 100px;
+		padding: 0;
+		margin: 0;
+	}
+	.box2{
+		width: 26%;
+		float: right;
+		height: 100px;
+		padding-right: 2px;
+		padding:0;
+	}
+	.box4{
+		width: 97%;
+		height: 70px;
+		 margin: 0;
+  		padding: 0;
+  		margin-top: 10px;
+  		margin-right: 10px;
+
+	}
+	.sidebar{
+		width: 97%;
+		height: 40px;
+		text-align: center;
+  		line-height: 25px;
+	}
+	#main{
+		width: 97%;
+		height: 300px;
+		background-color: #66a3ff;
+		margin-top: 140px;
+	}
+	.box5{
+		height: 70px;
+	}
 	
 }
-@media screen and (max-width: 1024){
+@media screen and (max-width: 480px){
 	
 }
