@@ -54,7 +54,7 @@ header{
 }
 .new3{
 	height: 100px;
-	width: 33.2%;
+	width: 33.31%;
 	float: left;
 	border-left: 1px solid black;
 	border-right: 1px solid black;
@@ -88,13 +88,13 @@ header{
 	border-top: none;
 }
 .footer1{
-	width: 49.8%;
+	width: 49.4%;
 	height: 100px;
 	float: left;
 	border-right:1px solid black;
 }
 .footer2{
-	width: 49.7%;
+	width: 49.3%;
 	height: 100px;
 	float: left;	
 }
@@ -109,6 +109,7 @@ header{
 	.new3{
 		border-right: 1px solid black;
 		border-bottom: none;
+		width: 33.21%;
 	}
 	.ads1{
 		border-top: none;
