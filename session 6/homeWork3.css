@@ -1,0 +1,104 @@
+body{
+	margin: 0 auto;
+	padding: 0 auto;
+	width: 70%;
+	color: white;
+	margin-top: 10px;
+}
+.link{
+	height: 30px;
+	width: 10%;
+	text-align: center;
+	line-height: 23px;
+	float: left;
+	background-color: blue;
+	margin-left: 1%;
+	border-radius: 4px;
+}
+.banner{
+	float: left;
+	height: 200px;
+	width: 80%;
+	text-align: right;
+	line-height: 100px;
+	padding-right: 10px;
+	background-color: blue;
+	border-radius: 10px;
+	margin-top: 10px;
+	float: left;
+	font-size: 30px;
+}
+.article{
+	width: 40%;
+	height: 90px;
+	background-color: blue;
+	float: left;
+	border-radius: 5px;
+	margin: 0;
+	margin-right: 1%;
+	margin-top: 10px;
+	text-align: right;
+	font-size: 30px;
+
+}
+footer{
+	height: 50px;
+	background-color: blue;
+	width: 81%;
+	float: left;
+	border-radius: 10px;
+	margin-top: 10px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 20px;
+}
+@media screen and (max-width: 1024px){
+
+}
+@media screen and (max-width: 768px){
+	.article{
+		height: 94px;
+		width: 19.7%;
+		padding-right: 0%;
+		margin-top: 20px;
+		transform: rotate(90deg);
+		-moz-transform:rotate(90deg);
+		-webkit-transform:90deg;
+		-o-transform:rotate(90deg);
+		-ms-transform:rotate(90deg);
+		text-align: center;
+		line-height: -20%;
+		font-size: 25px;
+	}
+	footer{
+		margin-top: 20px;
+	}
+}
+@media screen and (max-width: 480px){
+		.link{
+			width: 100%;
+			float: left;
+			margin-top: 5px;
+		}
+		.banner{
+			width: 97%;
+			height: 60px;
+			text-align: center;
+			line-height: 60px;
+		}
+		.article{
+			height: 60px;
+			width: 100%;
+			text-align: center;
+			transform: none;
+			line-height: 60px;
+			float: left;
+			margin-top: 5px;
+		}
+		footer{
+			width: 100%;
+			float: left;
+			margin-top: 5px;
+			height: 40px;
+		}
+}
