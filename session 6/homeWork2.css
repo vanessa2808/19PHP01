@@ -14,10 +14,15 @@ body{
 	height: 699px;
 	margin: 0 auto;
 	margin-top: 16px;
-	border:5px solid grey;
-	border-left: none;
-	border-top: none;
-	border-top: 10px dashed grey;
+}
+.background{
+	width: 94%;
+	height: 670px;
+	background-repeat: no-repeat;
+	margin-left: 3%;
+	margin-top: -34.3px;
+	margin-bottom: 18px;
+	float: center;
 }
 .box{
 	height: 70px;
@@ -25,9 +30,7 @@ body{
 	background-color: #66a3ff;
 	border-right: none;
 	border-left: none;
-	margin-top: -15px;
-	border-bottom: 10px dashed grey;
-	padding-bottom: -10px;
+	margin-top: -650px;
 }
 .brand{
 	float: left;
@@ -96,7 +99,6 @@ body{
 	height: 260px;
 	float: left;
 	background-color: #66a3ff;
-	border-top: 10px dashed grey;
 	margin-top: 15px;
 }
 .articleFeature{
@@ -123,7 +125,6 @@ body{
 	background-color: #66a3ff;
 	margin-left: 15px;
 	margin-top:15px;
-	border-top: 10px dashed grey;
 }
 .sidebar{
 	height: 210px;
@@ -138,13 +139,28 @@ body{
 	float: left;
 	background-color: #66a3ff;
 	margin-top: 15px;
-	border-bottom: 10px dashed grey;
-	border-top: 10px dashed grey;
 }
 @media screen and (max-width: 1024px){
+	.background{
+	width: 94%;
+	height: 670px;
+	background-repeat: no-repeat;
+	margin-left: 6%;
+	margin-top: -34.3px;
+	margin-bottom: 18px;
+	float: center;
+}
 
 }
 @media screen and (max-width: 768px){
+	.background{
+	width: 94%;
+	height: 670px;
+	background-repeat: no-repeat;
+	margin-left: 5%;
+	margin-top: -34.3px;
+	float: center;
+}
 	body{
 		width:70%;
 		height: 750px;
@@ -179,7 +195,7 @@ body{
 	}
 	.box3{
 		width: 70%;
-		height: 280px; 
+		height: 0px; 
   		border-top: none;
 	}
 	.articleFeature{
@@ -234,11 +250,18 @@ body{
 @media screen and (max-width: 480px){
 	body{
 		height: 420px;
-		border: 5px solid grey;
-		border-right: none;
-		border-top: none;
-		border-bottom: 5px solid grey;
+		padding-right: 20px;
 	}
+	.background{
+	width: 94%;
+	height: 600px;
+	background-repeat: no-repeat;
+	margin-left: 7%;
+	margin-top: 40px;
+	margin-top: -34.3px;
+	margin-bottom: 18px;
+	float: center;
+}
 	.box{
 		height: 80px;
 	}
