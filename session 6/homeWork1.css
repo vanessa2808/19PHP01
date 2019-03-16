@@ -21,13 +21,14 @@ header{
 }
 .slogo{
 	height: 100px;
-	width: 58%;
+	width: 58.23%;
 	float: left;
 	border-left: 1px solid black;
 	border-bottom:1px solid black;
 }
 #slider{
 	height: 100px;
+	width: 100%;
 	border-bottom: 1px solid black;
 
 }
@@ -88,13 +89,13 @@ header{
 	border-top: none;
 }
 .footer1{
-	width: 49.4%;
+	width: 49.1%;
 	height: 100px;
 	float: left;
 	border-right:1px solid black;
 }
 .footer2{
-	width: 49.3%;
+	width: 49.1%;
 	height: 100px;
 	float: left;	
 }
