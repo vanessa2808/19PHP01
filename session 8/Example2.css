@@ -1,0 +1,12 @@
+ul li{
+	list-style-type: circle;
+}
+ol li{
+	list-style-type: upper-romano;
+}
+ol li:nth-child(odd){
+	list-style-type: upper-alpha;
+}
+ul li:nth-child(even){
+	list-style-type: square;
+}
