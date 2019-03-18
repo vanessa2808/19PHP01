@@ -1,0 +1,51 @@
+body{
+	margin: 0 auto;
+	width: 70%;
+	background-color: #ffdd99;
+}
+ul li {
+	list-style-type: none;
+}
+ul li a{
+	text-decoration: none;
+	float: left;
+	padding: 20px 40px;
+	text-align: center;
+	font-size: 30px;
+	background-color: white;
+	color: black;
+	display: inline-table;
+	
+}
+.active1{
+	color: black;
+	background: #333;
+	color: white;
+
+}
+ul li a:hover{
+	background:#333;
+	color: white;
+}
+ ul li>.sub-menu{
+	display: none;
+	position: absolute;
+}
+ ul li:hover>.sub-menu{
+	display: block;
+}
+ul li >.box{
+	margin-top: 74px;
+	margin-left: 269px;
+	margin-bottom: -75px;
+	padding-right:40px;
+	float: center;
+	height: 70px;
+	width: 50%;
+	text-align: center;
+	line-height: 50px;
+	background: #333;
+	color: white;
+	font-size: 20px;
+
+}
