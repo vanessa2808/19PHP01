@@ -10,21 +10,19 @@ ul li a{
 	text-decoration: none;
 	float: left;
 	padding: 20px 40px;
-	text-align: center;
 	font-size: 30px;
 	background-color: white;
 	color: black;
 	display: inline-table;
+	position: relative;
 	
 }
 .active1{
-	color: black;
 	background: #333;
 	color: white;
-
 }
 ul li a:hover{
-	background:#333;
+	background:#808080;
 	color: white;
 }
  ul li>.sub-menu{
@@ -39,13 +37,10 @@ ul li >.box{
 	margin-left: 269px;
 	margin-bottom: -75px;
 	padding-right:40px;
-	float: center;
 	height: 70px;
 	width: 50%;
-	text-align: center;
-	line-height: 50px;
 	background: #333;
 	color: white;
 	font-size: 20px;
-
+	line-height: 60px;
 }
