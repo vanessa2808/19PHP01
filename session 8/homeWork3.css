@@ -1,3 +1,165 @@
+body{
+	margin: 0 auto;
+	width: 90%;
+	padding-top: 10px;
+}
+.image{
+	height: 180px;
+	width: 15%;
+	background: blue;
+	background-image: url('avatar.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;
+}
+.headers{
+	float: left;
+	height: 180px;
+	width: 80%;
+	background-color: yellow;
+	margin-top: 0px;
+	list-style-type: none;
+}
+.item1{
+	color: blue;
+	font-size: 30px;
+}
+.item2,.item3,.item4{
+	padding-top: 15px;
+}
+.career{
+	height: 120px;
+	width: 15%;
+	background-color: #005ce6;
+	text-align: center;
+	float: left;
+	line-height: 80px;
+	padding-left: 0px;
+	text-align: center;
+	color: white;
+}
+.contentCareer{
+	height: 120px;
+	width: 80%;
+	float: left;
+	padding-left: 10px;
+}
+.objective{
+	height: 120px;
+	width: 15%;
+	background-color: #005ce6;
+	text-align: center;
+	float: left;
+	line-height: 80px;
+	padding-left: 0px;
+	text-align: center;
+	color: white;
+	margin-top: 10px;
+}
+.objectiveContent{
+	height: 120px;
+	width: 80%;
+	float: left;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.skill{
+	height: 120px;
+	width: 15%;
+	background-color: #005ce6;
+	text-align: center;
+	float: left;
+	line-height: 80px;
+	text-align: center;
+	color: white;
+	margin-top: 10px;
+}
+.SkillContent{
+	height: 120px;
+	width: 80%;
+	float: left;
+	margin-left: -30px;
+	padding-top: 20px;
+}
 .SkillContent ul li{
 	list-style-type: none;
+}
+.experience{
+	float: left;
+	height: 600px;
+	width: 15%;
+	background-color: #005ce6;
+	text-align: center;
+	line-height: 80px;
+	text-align: center;
+	color: white;
+}
+.First{
+	list-style-type: none;
+	float: left;
+	color: blue;
+	background-color: yellow;
+	width: 80%;
+	height: 80px;
+	margin-top: 0px;
+}
+.Networking{
+	float: left;
+	width: 80%;
+	height: 80px;
+}
+.Leadership{
+	float: left;
+	width: 80%;
+	height: 80px;
+}
+.second{
+	list-style-type: none;
+	float: left;
+	color: blue;
+	background-color: yellow;
+	width: 80%;
+	height: 80px;
+	margin-top: 20px;
+}
+.Research{
+	float: left;
+	width: 80%;
+	height: 80px;
+	margin-top: 0px;
+	margin-bottom: 84px;
+}
+.education{
+	float: left;
+	height: 60px;
+	width: 15%;
+	background-color: #005ce6;
+	text-align: center;
+	line-height: 80px;
+	text-align: center;
+	color: white;
+}
+.educationContent{
+	float: left;
+	width: 80%;
+	height: 80px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.reference{
+	float: left;
+	height: 60px;
+	width: 15%;
+	background-color: #005ce6;
+	text-align: center;
+	line-height: 80px;
+	text-align: center;
+	color: white;
+	margin-top: -20px;
+}
+.referenceContent{
+	float: left;
+	width: 80%;
+	height: 80px;
+	padding-left: 10px;
 }
