@@ -1,12 +1,10 @@
-ul li{
-	list-style-type: circle;
-}
 ol li{
-	list-style-type: upper-romano;
+	list-style-type: none;
 }
-ol li:nth-child(odd){
-	list-style-type: upper-alpha;
-}
-ul li:nth-child(even){
-	list-style-type: square;
+a{
+	text-decoration: none;
+	border:1px solid black;
+	padding: 10px;
+	width: 200px;
+	margin-top: 10px;
 }
