@@ -39,7 +39,7 @@ ul li:hover>.sub-menu2{
 }
 ul li >.box{
 	height: 60px;
-	width: 19%;
+	width:18.9%;
 	background: #666666;
 	margin-top: 63px;
 	margin-bottom: -70px;
@@ -53,6 +53,6 @@ ul li >.box1{
 	background: #666666;
 	margin-top: 248.8px;
 	margin-bottom: -249.5px;
-	margin-left: 564px;
+	margin-left: 563px;
 	font-size: 18px;
 }
