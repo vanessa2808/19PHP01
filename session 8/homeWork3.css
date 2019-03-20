@@ -44,7 +44,7 @@ body{
 	height: 120px;
 	width: 70%;
 	float: left;
-	padding-left: 10px;
+	padding-left: 37px;
 	margin-top: 10px;
 }
 .objective{
@@ -63,7 +63,7 @@ body{
 	height: 120px;
 	width: 70%;
 	float: left;
-	padding-left: 10px;
+	padding-left: 37px;
 	padding-top: 10px;
 }
 .skill{
@@ -82,6 +82,7 @@ body{
 	width: 80%;
 	float: left;
 	margin-left: -30px;
+	padding-left: 25px;
 }
 .SkillContent ul li{
 	list-style-type: none;
@@ -155,7 +156,7 @@ body{
 	float: left;
 	width: 72.7%;
 	height: 40px;
-	padding-left: 10px;
+	padding-left: 37px;
 	background-color: #ffff00;
 	font-weight: bold;
 	margin-top: -3px;
@@ -179,6 +180,9 @@ body{
 	float: left;
 	width: 70%;
 	height: 70px;
-	padding-left: 10px;
+	padding-left: 37px;
 	margin-top: 30px;
+}
+.demo{
+	margin-left: -15px;
 }
