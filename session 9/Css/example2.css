@@ -1,0 +1,40 @@
+body{
+	margin: 0 auto;
+	width: 90%;
+}
+.navigation{
+	width: 45%;
+	background-color: blue;
+	height: 30px;
+	padding-top: 2px;
+	padding-left: 0px;
+}
+a:visited{
+	color: white;
+}
+a{
+	color: white;
+	padding-right: 20px;
+	padding-left: 0px;
+}
+a:hover{
+	color: yellow;
+}
+#about,#getticket,#become,#Aboutus{
+	height: 500px;
+}
+ul li{
+	list-style-type: none;
+	float: left;
+	margin-top: -10px;
+	text-align: center;
+}
+.menu{	height: 100px;
+	list-style-type: none;
+	border:1px solid white;
+	padding-left: 30px;
+	background-color: blue;
+	text-decoration: none;
+	margin-left: 4px;
+	border-radius: 3px;
+}

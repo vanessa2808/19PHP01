@@ -1,0 +1,12 @@
+a:visited{
+	color: green;
+}
+a{
+	color: red;
+}
+a:hover{
+	color: yellow;
+}
+#about,#product,#contact,#map,#xemthem{
+	height: 500px;
+}

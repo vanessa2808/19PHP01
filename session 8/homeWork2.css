@@ -9,7 +9,7 @@ ul li{
 ul li a{
 	text-decoration: none;
 	float: left;
-	padding: 20px 40px;
+	padding: 14px 16px;
 	font-size: 20px;
 	display: inline-table;
 	background-color: #333;
@@ -44,7 +44,7 @@ ul li >.box{
 	margin-top: 63px;
 	margin-bottom: -70px;
 	padding-right: 1px;
-	margin-left: 455px;
+	margin-left: 320px;
 	font-size: 20px;
 }
 ul li >.box1{
