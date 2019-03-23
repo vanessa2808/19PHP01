@@ -1,11 +1,19 @@
 body{
-	margin: 0 auto;
 	width: 80%;
 	padding-top: 10px;
+	margin: 0 auto;
+	background-image: linear-gradient(to left,#00B77F,#FFFFC7)
+	
+}
+.CV{
+	border:5px solid #00B77F ;
+	height: 1256px;
+	background-color: #fff;
+	border-radius: 10px;
 }
 .image{
 	height: 180px;
-	width: 15%;
+	width: 16%;
 	background: #33adff;
 	background-image: url('avatar1.png');
 	background-size: cover;
@@ -15,7 +23,7 @@ body{
 .headers{
 	float: left;
 	height: 180px;
-	width: 70%;
+	width: 80%;
 	background-color: #ffff00;
 	margin-top: 0px;
 	list-style-type: none;
@@ -29,10 +37,11 @@ body{
 }
 .career{
 	height: 120px;
-	width: 15%;
+	width: 16%;
 	background-color: #33adff;
 	text-align: center;
 	float: left;
+	font-size: 14px;
 	line-height: 80px;
 	padding-left: 0px;
 	text-align: center;
@@ -42,14 +51,14 @@ body{
 }
 .contentCareer{
 	height: 120px;
-	width: 70%;
+	width: 80%;
 	float: left;
 	padding-left: 37px;
 	margin-top: 10px;
 }
 .objective{
 	height: 120px;
-	width: 15%;
+	width: 16%;
 	background-color: #33adff;
 	float: left;
 	line-height: 80px;
@@ -61,14 +70,14 @@ body{
 }
 .objectiveContent{
 	height: 120px;
-	width: 70%;
+	width: 80%;
 	float: left;
 	padding-left: 37px;
 	padding-top: 10px;
 }
 .skill{
 	height: 120px;
-	width: 15%;
+	width: 16%;
 	background-color: #33adff;
 	text-align: center;
 	font-weight: bold;
@@ -82,7 +91,7 @@ body{
 	width: 80%;
 	float: left;
 	margin-left: -30px;
-	padding-left: 25px;
+	padding-left: 30px;
 }
 .SkillContent ul li{
 	list-style-type: none;
@@ -90,7 +99,7 @@ body{
 .experience{
 	float: left;
 	height: 540px;
-	width: 15%;
+	width: 16%;
 	background-color: #33adff;
 	text-align: center;
 	font-weight: bold;
@@ -104,7 +113,7 @@ body{
 	float: left;
 	color: blue;
 	background-color: #ffff00;
-	width: 70%;
+	width: 80%;
 	height: 80px;
 	margin-top:10px;
 	padding-top: 20px;
@@ -112,22 +121,24 @@ body{
 }
 .Networking{
 	float: left;
-	width: 70%;
+	width: 75%;
 	height: 80px;
 	margin-top: -25px;
+	margin-left: 17px;
 }
 .Leadership{
 	float: left;
-	width: 70%;
+	width: 75%;
 	height: 80px;
 	margin-top: -20px;
+	margin-left: 17px;
 }
 .second{
 	list-style-type: none;
 	float: left;
 	color: blue;
 	background-color: #ffff00;
-	width: 70%;
+	width: 80%;
 	height: 80px;
 	margin-top: 40px;
 	padding-top: 20px;
@@ -135,15 +146,16 @@ body{
 }
 .Research{
 	float: left;
-	width: 70%;
+	width: 75%;
 	height: 80px;
 	margin-top: -20px;
 	margin-bottom: 84px;
+	margin-left: 17px;
 }
 .education{
 	float: left;
 	height: 60px;
-	width: 15%;
+	width: 16%;
 	background-color: #33adff;
 	text-align: center;
 	font-weight: bold;
@@ -154,7 +166,7 @@ body{
 }
 .educationContent{
 	float: left;
-	width: 70%;
+	width: 80%;
 	height: 40px;
 	padding-left: 37px;
 	background-color: #ffff00;
@@ -166,7 +178,7 @@ body{
 .reference{
 	float: left;
 	height: 60px;
-	width: 15%;
+	width: 16%;
 	background-color: #33adff;
 	text-align: center;
 	font-weight: bold;
@@ -178,7 +190,7 @@ body{
 }
 .referenceContent{
 	float: left;
-	width: 70%;
+	width: 80%;
 	height: 70px;
 	padding-left: 37px;
 	margin-top: 30px;
