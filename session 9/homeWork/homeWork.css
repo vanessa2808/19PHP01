@@ -1,0 +1,142 @@
+body{
+	width: 100%;
+}
+header{
+	background-color: #990000;
+	width: 100%;
+	border:1px solid red;
+	height: 40px;
+}
+.vietnam{
+	width: 25px;
+}
+.US{
+	width: 20px;
+}
+  ul li {
+	float: left;
+	list-style-type: none;
+	text-decoration: none;
+}
+.phone{
+	width: 20px;
+	margin-left: 40px;
+}
+.text{
+	margin-top: -22px;
+	margin-left: 65px;
+	color: white;
+	text-decoration: none;
+}
+.mail{
+	width: 20px;
+	margin-left: 40px;
+}
+.eUni{
+	width: 20px;
+	margin-left: 60px;
+	margin-top: -5px;
+	padding-bottom: -20px;
+}
+.text1{
+	margin-top: -27px;
+	padding-left: 40px;
+	text-decoration: none;
+	color: blue;
+	border:1px solid grey;
+	height: 30px;
+	margin-left: 40px;
+	background-color: grey;
+	text-align: center;
+	line-height: 30px;
+	font-weight: bold;
+}
+section{
+	width: 100%;
+	height: 40px;
+	border:1px solid red;
+	background-color: red;
+	display: inline-table;
+	position: relative;
+	margin-top: -16px;
+}
+.logo{
+	width: 100px;
+	margin-top: -10px;
+}
+.home{
+	width: 20px;
+	margin-left: 10px;
+}
+.myDTU{
+	width: 20px;
+	margin-left: 60px;
+	margin-bottom: -5px;
+}
+.Find{
+	margin-left: 80px;
+}
+ul li .active{
+	list-style-type: none;
+	text-decoration: none;
+	padding-left: 10px;
+	color: white;
+	font-weight: bold;
+}
+ul li .active:hover{
+	background:#808080;
+	color: white;
+}
+ ul li>.menu2{
+	display: none;
+	position: absolute;
+}
+ ul li:hover>.menu2{
+	display: block;
+}
+.sub-menu{
+	border:1px solid white;
+	background-color: white;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	margin-top: 0px;
+}
+ul li .box:hover{
+	background:#808080;
+	color: white;
+}
+ul li .box{
+	list-style-type: none;
+	text-decoration: none;
+	padding-left: 5px;
+}
+ul li>.sub-menu{
+	display: none;
+	position: absolute;
+}
+ ul li:hover>.sub-menu{
+	display: block;
+}
+ul li >.box, .box1{
+	margin-top: 62px;
+	margin-left: -20px;
+	padding-right:30px;
+	color: black;
+	font-size: 20px;
+	line-height: 60px;
+	width: 50%;
+}
+.box1{
+	background-color: black;
+	color: white;
+	border:1px solid black;
+	margin-right: 30px;
+	text-decoration: none;
+}
+ul li>.sub-text{
+	display: none;
+	position: absolute;
+}
+ ul li:hover>.sub-text{
+	display: block;
+}
