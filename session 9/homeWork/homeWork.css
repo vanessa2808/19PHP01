@@ -126,6 +126,34 @@ ul li >.box, .box1{
 	line-height: 60px;
 	width: 50%;
 }
+.about1{
+	width: 10%;
+}
+.active2{
+	float: left;
+	list-style-type: none;
+	text-decoration: none;
+	padding-bottom: 10px;
+	color: black;
+	font-weight: bold;
+}
+.sub-text{
+	float: left;
+	width: 60%;
+	background-color: white;
+}
+ul li .about1{
+	display: none;
+	position: absolute;
+	float: left;
+	margin-left: -200px;
+	list-style-type: none;
+	text-decoration: none;
+	margin-top: 20px;
+}
+ul li:hover>.about1{
+	display: block;
+}
 .box1{
 	background-color: black;
 	color: white;
@@ -139,4 +167,58 @@ ul li>.sub-text{
 }
  ul li:hover>.sub-text{
 	display: block;
+}
+.achievement{
+	width: 100%;
+}
+.about2{
+	width: 20%;
+}
+ul li .about2{
+	display: none;
+	position: absolute;
+	float: right;
+	margin-left: 57%;
+	list-style-type: none;
+	text-decoration: none;
+	margin-top: 20px;
+}
+ul li:hover>.about2{
+	display: block;
+}
+.truong{
+	width: 100%;
+}
+.active3{
+	float: left;
+	list-style-type: none;
+	text-decoration: none;
+	padding-bottom: 10px;
+	color: white;
+	font-weight: bold;
+	border:1px solid orange;
+	background-color: red;
+}
+.active4{
+	float: left;
+	list-style-type: none;
+	text-decoration: none;
+	padding-bottom: 10px;
+	color: red;
+	font-weight: bold;
+}
+ul li .list2{
+	color: black;
+	font-weight: bold;
+}
+.achievement1{
+	float: left;
+	width: 49%;
+	height: 400px;
+}
+.achievement2{
+	float: left;
+	width: 50%;
+	height: 400px;
+	margin-top: -36px;
 }
