@@ -21,6 +21,7 @@ header{
 .phone{
 	width: 20px;
 	margin-left: 40px;
+	margin-top: -5px;
 }
 .text{
 	margin-top: -22px;
@@ -31,12 +32,12 @@ header{
 .mail{
 	width: 20px;
 	margin-left: 40px;
+	margin-top: -5px;
 }
 .eUni{
 	width: 20px;
 	margin-left: 60px;
-	margin-top: -5px;
-	padding-bottom: -20px;
+	margin-top: -50px;
 }
 .text1{
 	margin-top: -27px;
@@ -50,6 +51,7 @@ header{
 	text-align: center;
 	line-height: 30px;
 	font-weight: bold;
+	border-radius: 15px;
 }
 section{
 	width: 100%;
@@ -68,10 +70,16 @@ section{
 	width: 20px;
 	margin-left: 10px;
 }
+.phone1{
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	list-style-type: none;
+}
 .myDTU{
 	width: 20px;
 	margin-left: 60px;
-	margin-bottom: -5px;
+	margin-top: -50px;
 }
 .Find{
 	margin-left: 80px;
@@ -136,6 +144,17 @@ ul li >.box, .box1{
 	padding-bottom: 10px;
 	color: black;
 	font-weight: bold;
+}
+ul li .about0{
+	display: none;
+	position: absolute;
+	width: 100%;
+	list-style-type: none;
+	text-decoration: none;
+	margin-top: 50px;
+}
+ul li:hover>.about0{
+	display: block;
 }
 .sub-text{
 	float: left;
@@ -221,4 +240,26 @@ ul li .list2{
 	width: 50%;
 	height: 400px;
 	margin-top: -36px;
+}
+.graduation{
+	width: 30%;
+	float: left;
+}
+ul li>.graduation{
+	display: none;
+	position: absolute;
+}
+ ul li:hover>.graduation{
+	display: block;
+}
+.sub-menu .sub-text{
+	float: left;
+	width: 30%;
+}
+.head{
+	background-color: white;
+}
+.about0{
+	background-color: white;
+	width: 100%;
 }
