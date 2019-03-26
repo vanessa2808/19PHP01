@@ -1,5 +1,6 @@
 body{
 	width: 100%;
+	margin: 0 auto;
 }
 header{
 	background-color: #990000;
@@ -262,9 +263,100 @@ ul li>.graduation{
 	float: left;
 	width: 30%;
 }
+nav{
+	background-color: #c2d6d6;
+	border:1px solid white;
+	height: 380px;
+	width: 100%;
+	margin-top: 700px;
+}
 footer{
 	border:1px solid grey;
-	background-color: grey;
+	background-color: #262626;
 	height: 300px;
 	width: 100%;
+}
+.duytan{
+	float: left;
+	width: 40%;
+}
+.Sitemap{
+	border-bottom: 2px solid grey;
+	width: 40%;
+	font-size: 30px;
+	margin-top: 130px;
+}
+.a-z{
+	margin-top: 5px;
+	font-size: 16px;
+	width: 100%;
+}
+#blockquote{
+	float: left;
+	width: 47%;
+}
+q{
+	font-size: 20px;
+}
+.help{
+	width: 20%;
+	float: left;
+	color: white;
+}
+.text-help{
+	list-style-type: none;
+	color: white;
+	float: left;
+}
+.help1{
+	width: 30%;
+	float: left;
+}
+.web{
+	color: white;
+	float: left;
+}
+.educa{
+	padding-top: 15px;
+	color: white;
+	float: left;
+}
+.liba{
+	padding-top: 15px;
+	color: white;
+	float: left;
+}
+.copy{
+	margin-top: 170px;
+	float: none;
+	border-top: 2px solid white;
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+.conta{
+	border-bottom: 2px solid red;
+	color: red;
+}
+.imageTruong{
+	float: left;
+}
+.daihocduytan{
+	width: 36%;
+	float: left;
+}
+.diachi{
+	float: left;
+}
+content{
+	width: 100%;
+}
+.DUYTANuniversity{
+	font-size: 30px;
+	text-indent: 10px;
+}
+.map{
+	float: left;
+	width: 58%;
+	height: 700px;
 }
