@@ -39,20 +39,20 @@ ul li:hover>.sub-menu2{
 }
 ul li >.box{
 	height: 60px;
-	width:18.9%;
+	width:20.7%;
 	background: #666666;
-	margin-top: 63px;
+	margin-top: 50.8px;
 	margin-bottom: -70px;
 	padding-right: 1px;
-	margin-left: 320px;
+	margin-left: 311px;
 	font-size: 20px;
 }
 ul li >.box1{
 	height: 60px;
-	width: 10%;
+	width: 15.5%;
 	background: #666666;
-	margin-top: 248.8px;
-	margin-bottom: -249.5px;
-	margin-left: 563px;
+	margin-top: 190px;
+	margin-bottom: -190px;
+	margin-left: 371px;
 	font-size: 18px;
 }
