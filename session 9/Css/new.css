@@ -385,3 +385,21 @@ content{
 	margin-top: -90px;
 	margin-left: 80px;
 }
+.frame{
+	width: 49%;
+	border-top: 1px solid red;
+	height: 100px;
+margin-top: 130px;
+	float: left;
+	margin-left: 6px;
+
+}
+.frame1{
+	width: 49%;
+	border-top: 1px solid red;
+	height: 100px;
+	float: left;
+	margin-left: 6px;
+	margin-top: 130px;
+
+}
