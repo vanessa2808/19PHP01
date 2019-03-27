@@ -350,6 +350,7 @@ q{
 }
 content{
 	width: 100%;
+	background-color: yellow;
 }
 .DUYTANuniversity{
 	font-size: 30px;
@@ -361,19 +362,5 @@ content{
 	height: 700px;
 }
 .duytan1{
-	width: 50px;
-}
-.chudo{
-	color: red;
-}
-.containDuytan{
-	float: left;
-	width: 100%;
-}
-p .duytannew{
-	float: left;
-	color: red;
-}
-.timkiem1{
-	float: left;
+	width: 30%;
 }
