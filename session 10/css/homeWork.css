@@ -49,15 +49,24 @@ h3{
 }
 .form2{
 	float: left;
-	padding-left: 80px;
+	margin-left: 145px;
 }
 footer{
 	height: 300px;
 	background-color: #F6F7F9;
 }
-@media screen and(max-width: 1024px){
+@media screen and (max-width: 1024px){
 	body{
 	width: 100%;
 	margin: 0 auto;
+}
+.content1{
+	float: left;
+	width: 30%;
+	margin-left: -135px;
+}
+.form2{
+	float: left;
+	margin-left: 135px;
 }
 }
