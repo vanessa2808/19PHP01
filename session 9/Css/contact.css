@@ -143,6 +143,7 @@ ul li >.box, .box1{
 }
 .about1{
 	width: 10%;
+	padding-right: 95px;
 }
 .active2{
 	float: left;
@@ -176,6 +177,7 @@ ul li .about1{
 	list-style-type: none;
 	text-decoration: none;
 	margin-top: 20px;
+	background-color: red;
 }
 ul li:hover>.about1{
 	display: block;
@@ -199,6 +201,9 @@ ul li>.sub-text{
 }
 .about2{
 	width: 20%;
+	background-color: red;
+	padding-right: 60px;
+	padding-left: 20px;
 }
 ul li .about2{
 	display: none;
@@ -230,7 +235,7 @@ ul li:hover>.about2{
 	list-style-type: none;
 	text-decoration: none;
 	padding-bottom: 10px;
-	color: red;
+	color: white;
 	font-weight: bold;
 }
 ul li .list2{
