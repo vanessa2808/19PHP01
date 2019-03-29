@@ -1,0 +1,23 @@
+body{
+	width: 60%;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+.red{
+	color: red;
+}
+p{
+	font-weight: bold;
+}
+.form{
+	height: 500px;
+}
+.box{
+	height: 30px;
+	width: 100%;
+}
+.su{
+	background-color: blue;
+	width: 20%;
+	height: 40px;
+}

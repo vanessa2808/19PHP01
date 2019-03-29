@@ -1,0 +1,63 @@
+body{
+	width: 100%;
+	margin: 0 auto;
+}
+header{
+	height: 80px;
+	width: 100%;
+	background-color: #3B5998;
+}
+section{
+		background-color: #E9EBEE;
+		margin-top: -17px;
+		height: 500px;
+		width: 100%;
+}
+h1{
+	color: white;
+	float: left;
+	line-height: 40px;
+	text-indent: 70px;
+}
+.float{
+	float: left;
+}
+.float1{
+	float: left;
+	margin-left: 10px;
+}
+.form1{
+	margin-left: 50%;
+}
+.submit{
+	float: left;
+	margin-top: 17px;
+}
+h3{
+	color: blue;
+	font-size: 18px;
+	float: left;
+}
+.facebook{
+	float: left;
+	width: 90%;
+}
+.content1{
+	float: left;
+	width: 30%;
+	margin-left: -80px;
+}
+.form2{
+	float: left;
+	padding-left: 80px;
+}
+footer{
+	height: 300px;
+	background-color: #F6F7F9;
+}
+@media screen and(max-width: 1024px){
+	body{
+	width: 100%;
+	margin: 0 auto;
+}
+}
