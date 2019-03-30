@@ -1,6 +1,7 @@
 body{
 	width: 100%;
 	margin: 0 auto;
+	font-family: Arial, Helvetica, sans-serif;
 }
 header{
 	height: 80px;
@@ -9,9 +10,13 @@ header{
 }
 section{
 		background-color: #E9EBEE;
-		margin-top: -17px;
-		height: 500px;
+		margin-top: 0px;
+		height: 680px;
 		width: 100%;
+}
+.mienphi{
+	font-size: 25px;
+	margin-top: -30px;
 }
 h1{
 	color: white;
@@ -21,10 +26,12 @@ h1{
 }
 .float{
 	float: left;
+	color: white;
 }
 .float1{
 	float: left;
 	margin-left: 10px;
+	color: white;
 }
 .form1{
 	margin-left: 50%;
@@ -32,11 +39,14 @@ h1{
 .submit{
 	float: left;
 	margin-top: 17px;
+	background-color: #365899;
+	color: white;
 }
 h3{
 	color: blue;
 	font-size: 18px;
 	float: left;
+	margin-top: 60px;
 }
 .facebook{
 	float: left;
@@ -45,21 +55,148 @@ h3{
 .content1{
 	float: left;
 	width: 30%;
-	margin-left: -80px;
+	margin-left: -85px;
 }
 .form2{
 	float: left;
+	width: 40%;
 	margin-left: 145px;
 }
+.createForm{
+	float: left;
+}
+.ho{
+	width: 41%;
+	height: 30px;
+	float: left;
+	margin-right: 2px;
+	border-radius: 5px;
+}
+.ten{
+	width: 41%;
+	height: 30px;
+	float: left;
+	border-radius: 5px;
+}
+.phoneoremail{
+	width: 83%;
+	height: 30px;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+.new{
+	width: 83%;
+	height: 30px;
+	border-radius: 5px;
+}
+.date{
+	font-size: 20px;
+}
+.provide{
+	float: left;
+	margin-top: -2px;
+	width: 30%;
+	font-size: 14px;
+	margin-left: 2px;
+}
+.dangki{
+	font-weight: bold;
+	font-size: 40px;
+}
+.ngaysinh{
+	float: left;
+	height: 30px;
+	width: 16%;
+}
+.thansinh{
+	float: left;
+	height: 30px;
+	width: 16%;
+	margin-left: 2%;
+}
+.gender{
+	float: left;
+	margin-left: -450px;
+	margin-top: 30px;
+}
+.language{
+
+}
+ a{
+	text-decoration: none;
+	color: blue;
+}
+a:visted{
+	color: blue;
+}
+a:hover{
+	text-decoration: underline;
+}
+a:active{
+	color: blue;
+}
+.gender1{
+	float: left;
+	margin-left: -350px;
+	margin-top: 30px;
+}
+.text1{
+	float: left;
+	width: 80%;
+	font-size: 14px;
+	color: grey;
+}
+.text2{
+	float: left;
+	width: 80%;
+	font-size: 18px;
+	color: grey;
+}
+.namsinh{
+	float: left;
+	height: 30px;
+	width: 16%;
+	margin-left: 2%;
+}
+.border1{
+	width: 70%;
+	margin: 0 auto;
+	padding-left: 70px;
+	font-size: 15px;
+	margin-top: 10px;
+}
+.border{
+	border-bottom: 1px solid black;
+	width: 70%;
+	margin: 0 auto;
+	line-height: 100px;
+	padding-left: 70px;
+	font-size: 14px;
+}
+.dk{
+	background-color: #65863A;
+	float: left;
+	width: 30%;
+	height: 40px;
+}
+
 footer{
-	height: 300px;
+	height: 200px;
 	background-color: #F6F7F9;
+	margin-top: -50px;
 }
 @media screen and (max-width: 1024px){
 	body{
 	width: 100%;
 	margin: 0 auto;
-}
+	}
+	h1{
+		text-indent: 50px;
+	}
+	h3{
+		font-size: 14px;
+		margin-top: 60px;
+	}
 .content1{
 	float: left;
 	width: 30%;
@@ -69,4 +206,91 @@ footer{
 	float: left;
 	margin-left: 135px;
 }
+.createForm{
+	float: left;
+}
+.ho{
+	width: 47%;
+	height: 30px;
+	float: left;
+}
+.ten{
+	width: 50%;
+	height: 30px;
+	float: left;
+}
+.phoneoremail{
+	width: 98%;
+}
+.new{
+	width: 98%;
+}
+.provide{
+	width: 40%;
+	margin-left: 4px;
+}
+.gender{
+	margin-left: -385px;
+	margin-top: 30px;
+}
+.gender1{
+	margin-left: -320px;
+	margin-top: 30px;
+}
+.border1{
+	width: 70%;
+	font-size: 15px;
+	margin-top: 30px;
+}
+.border{
+	width: 70%;
+	margin: 0 auto;
+	line-height: normal;
+	font-size: 10px;
+	margin-top: 50px;
+	width: 60%;
+	padding-top: 20px;
+	border: none;
+}
+}
+@media screen and (max-width: 768px){
+	h1{
+		text-indent: 10px;
+	}
+	.float{
+		margin-left: -100px;
+	}
+	.float1 .submit{
+		margin-top: -53px;
+		margin-left: 250px;
+	}
+	.content1{
+		display: none;
+	}
+	.ho{
+		width: 98%;
+	}
+	section{
+		height: 780px;
+	}
+	.ten{
+		width: 98%;
+		margin-top: 15px;
+	}
+	.provide{
+		width: 60%;
+		font-size: 13px;
+	}
+	.gender{
+		margin-left: -190px;
+	}
+	.gender1{
+		margin-left: -100px;
+	}
+	.text1{
+		margin-top: 0px;
+	}
+	.border{
+		font-size: 9px;
+	}
 }

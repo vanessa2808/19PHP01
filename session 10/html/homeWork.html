@@ -13,14 +13,10 @@
 <header>
 	<h1>FaceBook</h1>
 	<div class="form1">
-	<form class="float" action="#" method="POST" name="register">
-		<p>Email hoặc điện thoại <br/><input class="box" type="text" name="text" placeholder="abc@gmail.com"></p>
-	</form>
-	<form class="float1" action="#" method="POST" name="register" >
-		<p>Mật khẩu:<br/><input class="box" type="matkhau" name="matkhau" placeholder="*****"></p>
-	</form >
-	<form class="float1" action="#" method="POST" name="register">
-		<p><input class="submit" type="submit" name="submit" value="Đăng nhập"></p>
+	<form class="createForm" action="#" method="POST" name="register">
+		<p class="float">Email hoặc điện thoại <br/><input class="box" type="text" name="text" placeholder="abc@gmail.com"></p>
+		<p class="float1">Mật khẩu:<br/><input class="box" type="Password" name="matkhau" placeholder="*****"></p>
+		<p class="float1"><input class="submit" type="submit" name="submit" value="Đăng nhập"></p>
 	</form>
 </div>
 </header>
@@ -30,42 +26,52 @@
 	<img class="facebook" src="../image/facebook.png" alt="facebook">
 	</div>
 	<div class="form2">
+		<form>
 		<p class="dangki"> Đăng ký</p>
 		<p class="mienphi">Luôn miễn phí.</p>
 		<p><input class="ho" type="text" name="ho" placeholder="Họ"></p>
 		<p><input class="ten" type="text" name="ten" placeholder="Tên"></p>
-		<p><input type="phoneoremail" name="phoneoremail" placeholder="Số di động hoặc email"></p>
-		<p><input type="Password" name="matkhaumoi" placeholder="Mật khẩu mới"></p>
+		<p><input class="phoneoremail" type="phoneoremail" name="phoneoremail" placeholder="Số di động hoặc email"></p>
+		<p><input class="new" type="Password" name="matkhaumoi" placeholder="Mật khẩu mới"></p>
 		<p class="date">Ngày Sinh
-			<select class="ngaysinh">
+			<p><select class="ngaysinh">
 				<option value="29">29</option>
 				<option value="29">29</option>
 				<option value="29">29</option>
 				<option value="29">29</option>
 			</select>
 			<select class="thansinh">
-				<option value="29">29</option>
+				<option value="29">Thang 3</option>
 				<option value="29">29</option>
 				<option value="29">29</option>
 				<option value="29">29</option>
 			</select>
 			<select class="namsinh">
-				<option value="29">29</option>
+				<option value="29">1999</option>
 				<option value="29">29</option>
 				<option value="29">29</option>
 				<option value="29">29</option>
 			</select>
-			<p>Tại sao tôi cần cung cấp ngày sinh của mình</p>
-
-		</p>
-
-
+			<p><a class="provide" href="#"> Tại sao tôi cần cung cấp ngày sinh của mình</a></p>
+			<br/>
+			<p class="gender"><input type="radio" name="radio">Nữ</p>
+			<p class="gender1"><input type="radio" name="radio">Nam</p>
+			<p class="text1">
+				Bằng cách nhấp vào Đăng ký, bạn đồng ý với <a href="#">Điều khoản </a> , <a href="#"> Chính sách dữ liệu </a> và <a href="#"> Chính sách cookie</a> của chúng tôi. Bạn có thể nhận được thông báo của chúng tôi qua SMS và hủy nhận bất kỳ lúc nào.
+			</p>
+			<p><input class="dk" type="submit" name="submit" value="Đăng kí"></p>
+			<p class="text2">
+				<a href="#"> Tạo Trang </a>dành cho người nổi tiếng, nhãn hiệu hoặc doanh nghiệp.
+			</p>
+		</form>
 	</div>
-
-
 </section>
 <footer>
-	
+	<p class="border"><a class="language" href="#">Tiếng viêt</a> &nbsp   <a href="#">English(UK)</a>&nbsp<a href="#"> 中文(台灣)</a> &nbsp <a href="#">한국어</a> &nbsp <a href="#">日本語</a> &nbsp<a href="#">Français (France)</a> &nbsp<a href="#">ภาษาไทย</a> &nbsp <a href="#">Español</a> &nbsp<a href="#">Português (Brasil)</a> &nbsp<a href="#">Deutsch</a> &nbsp<a href="#">Italiano</a></p>
+	<p class="border1">
+		<a href="#"> Đăng ký </a> &nbsp<a href="#">Đăng nhập</a> &nbsp<a href="#">Messenger</a> &nbsp<a href="#">Facebook Lite</a>&nbsp<a href="#">Tìm bạn bè</a>&nbsp<a href="#">Danh bạ</a> &nbsp<a href="#">Trang cá nhân</a>&nbsp<a href="#">Trang</a>&nbsp<a href="#">Hạng mục</a>&nbsp<a href="#">TrangĐịa điểm</a>&nbsp<a href="#">Trò chơi</a>&nbsp<a href="#">Vị trí</a>&nbsp<a href="#">Marketplace</a> &nbsp<a href="#">Nhóm</a>&nbsp<a href="#">Instagram</a>&nbsp<a href="#">Địa phương</a>&nbsp<a href="#"> Trang</a>&nbsp<a href="#">gây quỹ</a>&nbsp<a href="#">Giới thiệu</a>&nbsp<a href="#"> Tạo quảng cáo</a>&nbsp<a href="#">Tạo Trang</a>&nbsp<a href="#">Nhà phát triển</a>&nbsp<a href="#">Tuyển dụng</a>&nbsp<a href="#">Quyền riêng tư</a>&nbsp<a href="#">Cookie</a>&nbsp<a href="#"> Lựa chọn quảng cáo</a>&nbsp<a href="#">Điều khoản</a>&nbsp<a href="#">Bảo mật tài khoản</a>&nbsp<a href="#">Trợ giúp</a>&nbsp<a href="#">đăng nhập</a>&nbsp<a href="#"> Trợ giúp</a>&nbsp<a href="#">Cài đặt</a>&nbsp<a href="#">Nhật ký hoạt động</a>
+	</p>
+
 </footer>
 </body>
 </html>
