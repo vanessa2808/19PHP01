@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hello 1-session9</title>
+	<meta name="description" content="Example-session9">
+	<meta name="keywords" content="Example">
+	<link rel="shortcut icon" type="text/css" href="D:\19PHP01\session 9\image\team.png">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="../css/affect.css">
+</head>
+<body>
+	<!-- javascript co the thay doi dc noi dung cua html -->
+	<div id="changeContent">
+		Hello javascript
+	</div>
+	<a href="#" onclick="document.getElementById('changeContent').innerHTML="hello 19 PHP01"> Change Content</a>
+	<!-- co the thay doi duoc style cua html -->
+	<div id="changeStyle">
+		My style
+	</div>
+	<a href="#" onclick="document.getElementById('changeStyle').style.color='green'">Change color </a>
+	<a href="#" onclick="document.getElementById('changeStyle').style.color='26px'">Change fontsize</a>
+	<!-- co the thay doi duoc thuoc tinh cua doi tuong -->
+	<img src="../image/team.png" alt="image" id="changeImage">
+	<a href="#" onclick="document.getElementById('changeImage').src='../image/alarm.png'"> Change image</a>
+	<!-- Javasr co the mot dt cua HTML -->
+	<img src="../image/alarm.png" alt="image" id="hiddenImage">
+	<a href="#" onclick="document.getElementById('hiddenImage').style.display='none'">Hidden image</a>
+	<a href="#" onclick="document.getElementById('hiddenImage').style.display='block'">show image</a>
+
+<script type="text/javascript" src="../js/affect.js"></script>
+</body>
+</html>
