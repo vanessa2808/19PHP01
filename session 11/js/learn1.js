@@ -110,6 +110,16 @@ else {
  	default:
  		document.write('khong co thang nay');
  }
+
 /*
-	
+
 */
+var start=1; var end=10;
+var i; var j; var count;
+for(i = start;i<=end;i++){
+	count = i; 
+	for(j=1 ;j<=end;j++){
+		document.write("<br/>"+count+'*'+j+'='+count*j +"<br/>") 
+	}
+	document.write("<br/");
+}
