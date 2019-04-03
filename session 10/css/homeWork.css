@@ -11,7 +11,7 @@ header{
 section{
 		background-color: #E9EBEE;
 		margin-top: 0px;
-		height: 680px;
+		height: 700px;
 		width: 100%;
 }
 .mienphi{
@@ -202,7 +202,7 @@ footer{
 	background-color: #F6F7F9;
 	margin-top: -50px;
 }
-@media screen and (max-width: 1024px){
+@media only screen and (max-width: 1024px){
 	body{
 	width: 100%;
 	margin: 0 auto;
@@ -270,7 +270,7 @@ footer{
 	border: none;
 }
 }
-@media screen and (max-width: 768px){
+@media only screen and (max-width: 768px){
 	h1{
 		text-indent: 10px;
 	}
@@ -288,7 +288,7 @@ footer{
 		width: 98%;
 	}
 	section{
-		height: 780px;
+		height: 830px;
 	}
 	.ten{
 		width: 98%;
@@ -299,7 +299,7 @@ footer{
 		font-size: 13px;
 	}
 	.gender{
-		margin-left: -190px;
+		margin-left: -165px;
 	}
 	.gender1{
 		margin-left: -100px;
@@ -310,4 +310,55 @@ footer{
 	.border{
 		font-size: 9px;
 	}
+	.provide{
+		display: none;
+	}
+} 
+@media only screen and (max-width: 480px){
+	h1{
+		display: none;
+	}
+	.form1{
+		margin-left: 130px;
+	}
+	.text2{
+		display: none;
+	}
+	.gender{
+		margin-left: -40px;
+	}
+	.gender1{
+		margin-left: -110px;
+	}
+	.border{
+		margin-left: -100px;
+		margin-top: -10px;
+	}
+	.border1{
+		margin-left: -100px;
+		margin-top: 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		px;
+	}
 }
+
