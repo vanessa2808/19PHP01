@@ -1,0 +1,123 @@
+body{
+	margin: 0 auto;
+	margin-left: 90px;
+	margin-top: 0 auto;
+}
+.head{
+	width: 93.7%;
+	height: 50px;
+	background-color: yellow;
+	text-align: center;
+	font-weight: bold;
+
+}
+h1{
+	text-align: center;
+	background-color: yellow;
+	width: 79%;
+	font-size: 50px;
+}
+.box{
+	float: left;
+	width: auto;
+}
+.bo{
+	height: 30px;
+	
+	background-color: green;
+	text-align: center; 
+}
+.bo1{
+	height: 30px;
+	
+	background-color: pink;
+	text-align: center; 
+}
+.bo2{
+	height: 30px;
+	
+	background-color: orange;
+	text-align: center; 
+}
+.bo3{
+	height: 30px;
+	
+	background-color: red;
+	text-align: center; 
+}
+.bo4{
+	height: 30px;
+	
+	background-color: #ada;
+	text-align: center; 
+}
+.bo5{
+	height: 30px;
+	
+	background-color: white;
+	text-align: center; 
+}
+.bo6{
+	height: 30px;
+	
+	background-color: blue;
+	text-align: center; 
+}
+.bo7{
+	height: 30px;
+	
+	background-color: purple;
+	text-align: center; 
+}
+.bo8{
+	height: 30px;
+	
+	background-color: brown;
+	text-align: center; 
+}
+.symbol{
+	color: green;
+}
+.symbol1{
+	color: white;
+}
+.symbol2{
+	color: #ada;
+}
+.symbol3{
+	color: orange;
+}
+.symbol4{
+	color: purple;
+}
+.symbol5{
+	color: black;
+}
+
+.symbol6{
+	color: brown;
+}
+.symbol7{
+	color: grey;
+}
+.symbol8{
+	color: #75ABCA;
+}
+.symbol9{
+	color: #123A;
+}
+.symbol10{
+	color: #AB1234;
+}
+
+.symbol11{
+	color: #98DA;
+}
+.symbol12{
+	color: #56ABCC;
+}
+#gender2 , #gender3 , #gender4 , #gender5 , #gender6 , #gender7 , #gender8 , #gender9 {
+	background-color: #ada;
+	text-align: center;
+	margin-left: 1%;
+}
