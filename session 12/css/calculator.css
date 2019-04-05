@@ -9,12 +9,13 @@ table{
 	background-color: #dddddd
 }
 #result{
-	width: 205px;
-	height: 34px;
+	width: 224px;
+	height: 38px;
 }
 #equals{s
 	width: 34px;
 	height: 74px;
+	background-color: green;
 }
 #zero{
 	height: 32px;
