@@ -1,0 +1,22 @@
+table{
+	background-color: #808080;
+	margin: auto;
+}
+.btn{
+	height: 32px;
+	width: 34px;
+	text-align: center;
+	background-color: #dddddd
+}
+#result{
+	width: 205px;
+	height: 34px;
+}
+#equals{s
+	width: 34px;
+	height: 74px;
+}
+#zero{
+	height: 32px;
+	width: 75px;
+}
