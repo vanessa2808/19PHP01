@@ -2,14 +2,14 @@ table{
 	background-color: #808080;
 	margin: auto;
 }
-.btn{
+.press{
 	height: 32px;
 	width: 34px;
 	text-align: center;
 	background-color: #dddddd
 }
 #result{
-	width: 224px;
+	width: 300px;
 	height: 38px;
 }
 #equals{s
