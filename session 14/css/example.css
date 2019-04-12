@@ -1,0 +1,11 @@
+span {
+	color: red;
+}
+.option ul li {
+	width: 100px;
+	float: left;
+	height: 50px;
+	border: 1px solid green;
+	list-style-type: none;
+	padding: 10px;
+}
