@@ -1,0 +1,21 @@
+.symbol{
+	color: red;
+}
+#displayName{
+	margin-left: 60px;
+	height: 30px;
+	width: 40%;
+}
+#displayDate{
+	margin-left: 10px;
+}
+#displayGender{
+	margin-left: 45px;
+}
+#displayNumber{
+	margin-left: 54px;
+}
+#displaySubmit{
+	margin-left: 110px;
+	background-color: #ada;
+}
