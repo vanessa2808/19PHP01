@@ -15,13 +15,13 @@
 	margin-top: 50px;
 	float: left;
 }
-/*.runMyBox{
-	margin-top: 40px;
-}
-.velocity{
+#myBox{
 	height: 50px;
 	width: 50px;
+	background-color: #ada;
 	position: absolute;
 	font-size: 13px;
 	margin-top: 50px;
-}*/
+	float: left;
+	border-right: 1px solid black;
+}

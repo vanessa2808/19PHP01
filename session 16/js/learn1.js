@@ -6,26 +6,34 @@ function checkEmpty() {
 	var month = document.getElementById('month').value;
 	var year = document.getElementById('year').value;
 	if (name == '') {
-		document.getElementById('errorName').innerHTML = "please enter name";
-		document.getElementById('errorName').style.fontSize = "12px";
+		$('#displaySubmit').click(function(){
+			$('#errorName').html('please enter name!');
+		});
 	} else {
-		document.getElementById('errorName').innerHTML ='';
+		$('#displaySubmit').click(function(){
+			$('#errorName').html('');
+		});
 	}
 	if (phone == '') {
-		document.getElementById('errorPhone').innerHTML = 'please enter phone number';
-		document.getElementById('errorPhone').style.fontSize = "12px";
+		$('#displaySubmit').click(function(){
+			$('#errorPhone').html('please enter your phone!');
+		});
 
 	} else {
-		document.getElementById('errorPhone').innerHTML ='';
+		$('#displaySubmit').click(function(){
+			$('#errorName').html('');
+		});
 	}
 	if(day == ''){
-		document.getElementById('errorDate').innerHTML = 'please enter day.';
-		document.getElementById('errorDate').style.fontSize = "12px";
+		$('#displaySubmit').click(function(){
+			$('#errorDay').html('please enter day!');
+		});
 	}
 	else {
 		if (day <= 0 || day > 31){
-			document.getElementById('negativeDate').innerHTML ='[error:]Invalid number';
-			return '';
+			$('#displaySubmit').click(function(){
+			$('#errorName').html('[error:]Invalid number');
+		});
 		} else {
 			document.getElementById('errorYear').innerHTML ='';
 		}
