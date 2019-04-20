@@ -1,4 +1,4 @@
-var myImage = [];
+var myImage = ['slider1.jpg'];
 var time = 3000;
 var i  = 0;
 
@@ -8,7 +8,12 @@ myImage[3] = 'slider3.jpg';
 myImage[4] = 'slider4.jpg';
 
 function changeImage() {
-	for (var i = 0; i < myImage.length; i++) {
-		document.write(myImage[i]);
+	document.slide.src = myImage[i];
+	if(i < myImage.length -1){
+		i++
+	} else {
+		i = 0;
 	}
+	setTimeout("changeImage()",time);
 }
+window.onload = changeImage;
