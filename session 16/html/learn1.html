@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registed form</title>
+	<link rel="shortcut icon" type="text/css" href="../image/setting.png">
+	<script type="text/javascript" src="../js/jquery-3.4.0.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/learn1.css">
+</head>
+<body>
+	<h1>Apply Form:</h1>
+<form action="#" name="register">
+	<p>Name<span class="symbol">*</span>
+		<input type="text" name="name" id="displayName" placeholder="Nguyen Van A"> <span id="errorName"></span>
+	</p>
+	<p>Date Of Birth<span class="symbol" id="displayDate">*</span>
+		Date: <input type="text" name="date" id="date"><span id="errorDate"></span>
+		Month: <input type="text" name="Month" id="month"><span id="errorMonth"></span>
+		Year: <input type="text" name="year" id="year"><span id="errorYear"></span>
+	</p>
+	<div id="negativeDate"></div>
+	<p>Gender <span class="symbol">* </span>
+		<input type="radio" name="Gender" id="displayGender">Male
+		<input type="radio" name="Gender" id="displayGender">Female
+		<span id="errorGender" ></span>
+	</p>
+	<p>Phone <span class="symbol"> *</span>
+		<input type="text" name="Phone" placeholder="123456" id="displayNumber"> <span id="errorPhone"></span>
+	</p>
+	<p>
+		<input type="button" name="Register" value="Register" id="displaySubmit" onclick ="checkEmpty()"> <span id="rate"></span>
+	</p>
+</form>
+<div id="list">List:
+	<div id="display"> </div>
+	<div id="display1"></div>
+	<div id="display2"></div>
+	<div id="display3"></div>
+	<div id="display4"></div>
+</div>
+<script type="text/javascript" src="../js/learn1.js"></script>
+</body>
+</html>

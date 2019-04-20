@@ -1,0 +1,27 @@
+#myBox1{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	font-size: 13px;
+	margin-top: 50px;
+	float: left;
+	border-right: 1px solid black;
+}
+#myBox2{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	font-size: 13px;
+	margin-top: 50px;
+	float: left;
+}
+/*.runMyBox{
+	margin-top: 40px;
+}
+.velocity{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	font-size: 13px;
+	margin-top: 50px;
+}*/

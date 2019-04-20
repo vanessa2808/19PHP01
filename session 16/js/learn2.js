@@ -1,0 +1,27 @@
+$('.runMyBox').click(function(){
+	$('#myBox').animate({'font-size':'20px'});
+	$('#myBox').animate({'left':'100px'});
+	$('#myBox').animate({'top':'300px'});
+	$('#myBox').animate({'color':'blue'});
+	$('#myBox').animate({'height':'300px'});
+	$('#myBox').animate({'width':'300px'});
+});
+$('.showHide').click(function(){
+	$('#myBox').hide(400).css('color','red').show(5000);
+
+});
+$('.runImage').click(function(){
+	$('#myBox1').animate({'right':'100px'});
+	$('#myBox1').animate({'left':'600px'});
+	$('#myBox1').animate({'top':'300px'});
+	$('#myBox1').animate({'right':'50px'});
+	$('#myBox1').animate({'left':'10px'});
+	$('#myBox1').animate({'top':'400px'});
+});
+$('.runImage1').click(function(){
+	$('#myBox2').animate({'top':'300px'});
+	$('#myBox2').animate({'right':'100px'});
+	$('#myBox2').animate({'right':'50px'});
+	$('#myBox2').animate({'top':'400px'});
+	$('#myBox2').animate({'right':'500px'});
+});
