@@ -2,6 +2,19 @@ body{
 	width: 80%;
 	margin: 0 auto;
 }
+form{
+	border: 1px solid #ada;
+	width: 90%;
+	height: 280px;
+	background-color: #ada;
+
+}
+h1{
+	color: blue;
+}
+p{
+	text-indent: 80px;
+}
 .symbol{
 	color: red;
 }
@@ -18,10 +31,12 @@ body{
 }
 #displayNumber{
 	margin-left: 54px;
+	height: 30px;
 }
 #displaySubmit{
 	margin-left: 110px;
-	background-color: #ada;
+	background-color: #fac;
+	height: 30px;
 }
 #errorDate, #errorMonth, #errorYear, #errorName, #errorPhone{
 	color: red;
@@ -34,3 +49,23 @@ body{
  	width: 50px;
  	height: 30px;
  }
+ #negativeDate{
+ 	color: red;
+ 	text-align: center;
+ }
+ #list{
+ 	font-size: 30px;
+ 	color: orange;
+ 	background-color: yellow;
+ 	width: 90%;
+ 	height: 200px;
+ }
+ #display{
+ 	margin-top: 20px;
+ }
+ #display, #display1, #display2,  #display3, #display4{
+ 	font-size: 20px;
+ 	color: black;
+ 	text-indent: 30px;
+ }
+
