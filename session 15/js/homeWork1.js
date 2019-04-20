@@ -1,19 +1,18 @@
-var myImage = ['slider1.jpg'];
-var time = 3000;
+var myImage =[];
 var i  = 0;
-
-myImage[0] = 'slider1.jpg';
-myImage[1] = 'slider2.jpg';
-myImage[3] = 'slider3.jpg';
-myImage[4] = 'slider4.jpg';
-
+myImage[0] = '../image/slider1.jpg';
+myImage[1] = '../image/slider2.jpg';
+myImage[2] = '../image/slider5.jpg';
+myImage[3] = '../image/slider3.jpg';
+myImage[4] = '../image/slider4.jpg';
+myImage[5] = '../image/yen.jpg';
+myImage[6] = '../image/yen1.jpg';
 function changeImage() {
 	document.slide.src = myImage[i];
 	if(i < myImage.length -1){
-		i++
+		i++;
 	} else {
 		i = 0;
 	}
-	setTimeout("changeImage()",time);
 }
-window.onload = changeImage;
+changeImage();
