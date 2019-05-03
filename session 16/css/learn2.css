@@ -43,3 +43,31 @@
 	position: absolute;
 	margin-top: 340px;
 }
+.runImage2{
+	border: 1px solid black;
+	margin-top: 100px;
+	width: 100%;
+}
+header{
+	border:1px solid black;
+	transform: rotate(90deg);
+	width: 17%;
+	margin-top: 115px;
+	margin-left: 490px;
+}
+nav{
+	border: 1px solid black;
+	margin-top: 110px;
+	width: 45.2%;
+}
+footer{
+	border:1px solid black;
+	transform: rotate(90deg);
+	width: 3%;
+	margin-top: 20px;
+	margin-left: -20px;
+}
+span{
+	margin-left: 10px;
+	border: 1px dashed black;
+}
