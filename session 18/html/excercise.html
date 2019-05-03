@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Form calculate the cost of electricity</title>
+	<link rel="stylesheet" type="text/css" href="../css/excercise.css">
+</head>
+<body>
+<h1>Electrical Bill</h1>
+<form action="#">
+	<p>Name: <input id="name" type="text" name="Name" placeholder="Vanessa"><span id="errorName"></span></p>
+	<p>Address: <input id="address" type="text" name="address"><span id="errorAddress"></span></p>
+	<p>Phone number: <input id="phone" type="text" name="Phone"><span id="errorPhone"></span></p>
+	<p>The first day period: <input id="first" type="date" name="first"><span id="errorFirst"></span></p>
+	<p>The last day  period: <input id="last" type="date" name="last"><span id="errorLast"></span></p>
+	<p>The first number: <input id="number1" type="text" name="first1"><span id="errorNumber1"></span></p>
+	<p>The last number: <input id="number2" type="text" name="first2"><span id="errorNumber2"></span></p>
+	<p>Note: <input id="note" type="text" name="Note"></p>
+	<p><input id="press" type="button" name="submit" value="Register" onclick="checkForm()"></p>
+</form>
+<div id="display"></div>
+<script type="text/javascript" src="../js/excercise.js"></script>
+</body>
+</html>
