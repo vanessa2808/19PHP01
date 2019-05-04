@@ -1,54 +1,106 @@
 body{
-	height: 630px;
+	height: 670px;
 	width: 500px;
-	border: 4px solid blue;
 	margin: 0 auto;
 	padding-left: 20px;
 }
+header{
+	background-color: #FA9284;
+	margin-top: -20px;
+	margin-left: -20px;
+	height: 760px;
+	width: 680px;
+	padding-left: 30px;
+}
 #note{
 	height: 200px;
-	width: 300px;
-	margin-left: 104px;
-	border-color: blue;
+	width: 330px;
+	margin-left: 106px;
+	border-color: #FA9284;
 }
 #name{
-	margin-left: 100px;
-	border-color: blue;
+	margin-left: 98px;
+	border-color: #FA9284;
+	width: 330px;
+	height: 30px;
 }
 #address{
 	margin-left: 85px;
-	border-color: blue;
+	border-color: #FA9284;
+	width: 330px;
+	height: 30px;
 }
 #phone{
-	margin-left: 45px;
-	border-color: blue;
+	margin-left: 44px;
+	border-color: #FA9284;
+	width: 330px;
+	height: 30px;
 }
 #first{
-	margin-left: 11px;
-	border-color: blue;
-	width: 168px;
+	margin-left: 10px;
+	border-color: #FA9284;
+	width: 330px;
+	height: 30px;
 }
 #last{
-	margin-left: 15.5px;
-	border-color: blue;
-	width: 168px;
+	margin-left: 14px;
+	border-color: #FA9284;
+	width: 330px;
+	height: 30px;
 }
 #number1{
-	margin-left: 30.6px;
-	border-color: blue;
+	margin-left: 30px;
+	border-color: #FA9284;
+	width: 330px;
+	height: 30px;
 }
 #number2{
 	margin-left: 32.9px;
-	border-color: blue;
+	border-color: #FA9284;
+	width: 330px;
+	height: 30px;
 }
-#press{
+.press{
 	margin-left: 145px;
 	height: 50px;
 	background-color: #ada;
-	border-color: blue;
+	border-color: #FA9284;
+	float: left;
+	width: 110px;
+}
+.press1{
+	float: left;
+	height: 50px;
+	background-color: #ada;
+	border-color: #FA9284;
+	width: 110px;
+}
+.press2{
+	float: left;
+	height: 50px;
+	background-color: #ada;
+	border-color: #FA9284;
+	width: 110px;
 }
 #display{
-	height: 400px;
-	width: 400px;
-	border: 1px  dashed blue;
+	height: 250px;
+	width: 707px;
+	border: 1px  dashed #FA9284;
+	margin-top:0px;
+	margin-left: -20px;
+	font-size: 40px;
+	color: #FA9284;
+	font-weight: bold;
+}
+#display2, #display3, #display4, #display5, #display6, #display7, #display8, #display9{
+	color: black;
+	font-size: 20px;
+	font-weight: normal;
+
+}
+
+#success{
+	font-size: 40px;
+	color: green;
+	font-weight: bold;
 }
