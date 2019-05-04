@@ -68,7 +68,7 @@ function calculateEle(){
 	if (sum <= 0) document.getElementById('display9') = 'The cost is invalid';
 	else if (sum <= 100) var sum1 = sum * 1500;
 	else if (sum > 100 && sum <= 300) var sum1 = 100 * 1500 + (sum - 100) * 2000;
-	else if(sum > 300) var sum1 = 100 * 1500 + 200 * 2000 + (sum - 200) * 3000;
+	else if(sum > 300) var sum1 = 100 * 1500 + 200 * 2000 + (sum - 300) * 3000;
 		document.getElementById('display9').innerHTML = '<br> The cost of electricity = ' + sum1;
 }
 function printPersonalInformation(){
