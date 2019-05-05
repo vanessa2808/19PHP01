@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+	<form  class="form" id="form" method="get">
+		<h2> Form tính tiền điện</h2>
+		<div class="form-group">
+			<label>Họ tên <a>*</a> <span id="errorname" ></span></label>
+			<input type="text" name="hoten" placeholder="Nhập Họ tên" class="form-control" id="name" required>
+		</div>
+		<div class="form-group">
+			<label>Địa Chỉ <a>*</a><span id="erroraddr"></span></label>
+			<input type="text" name="diachi" placeholder="Nhập Địa chỉ" class="form-control" id="address">
+		</div>
+		<div class="form-group">
+			<label>Số điện thoại <a>*</a><span id="errortel"></span></label>
+			<input type="text" name="sdt" placeholder="Nhập số điện thoại" class="form-control" id="tel">
+		</div>
+		<div class="form-group">
+			<label>Ngày đầu kỳ <a>*</a> <span id="errorfdate"></span></label>
+			<input type="date" name="ngaydauki" class="form-control" id="fdate">
+		</div>
+		<div class="form-group">
+			<label>Ngày cuối kỳ <a>*</a> <span id="errorldate"></span></label>
+			<input type="date" name="ngaycuoiki" class="form-control" id="ldate">
+		</div>
+		<div class="form-group">
+			<label>Số đầu kì <a>*</a> <span id="errorfnum"></span></label>
+			<input type="number" name="sodauki" min="1" class="form-control" placeholder="Số đầu kì" id="fnum">
+		</div>
+		<div class="form-group">
+			<label>Số cuối kì <a>*</a> <span id="errorlnum"></span></label>
+			<input type="number" name="socuoiki" min="1" class="form-control" placeholder="Số cuối kì" id="lnum">
+		</div>
+		
+		<div class="form-group">
+			<label>Ghi chú </label>
+			<textarea class="form-control"  id="note"></textarea> 
+		</div>
+		<div class="button">
+		<input type="button" name="submit" class="btn-submit" value="Submit" >
+		<input type="reset" name="reset" class="btn-reset" value="Reset" >
+		</div>
+	</form>
+	<div id="hoadon">
+		<h3>Hóa đơn</h3>
+		<table>
+			<tr>
+				<td class="col1">Họ tên</td>
+				<td ><p id="hd-name"></p></td>
+			</tr>
+			<tr>
+				<td class="col1">Địa chỉ</td>
+				<td><p id="hd-addr"></p></td>
+			</tr>
+			<tr>
+				<td class="col1">Số điện thoại</td>
+				<td><p id="hd-tel"></p></td>
+			</tr>
+			<tr>
+				<td class="col1">Ngày đầu kì</td>
+				<td><p id="hd-fdate"></p></td>
+			</tr>
+			<tr>
+				<td class="col1">Ngày cuối kì</td>
+				<td><p id="hd-ldate"></p></td>
+			</tr>
+			<tr>
+				<td class="col1">Số đầu kì</td>
+				<td><p id="hd-fnum"></p></td>
+			</tr>
+			<tr>
+				<td class="col1">Số cuối kì</td>
+				<td><p id="hd-lnum"></p></td>
+			</tr>
+			<tr>
+				<td class="col1">Ghi chú</td>
+				<td> <p id="hd-note"></p></td>
+			</tr>
+			<tr>
+				<td class="col1">Thành tiền</td>
+				<td><p id="hd-total"></p></td>
+			</tr>
+
+		</table>
+
+	</div>
+
+<script src="jquery-3.4.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="jquery.validate.min.js"></script>
+<script  src="form.js"></script>
+</body>
+</html>

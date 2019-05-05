@@ -91,6 +91,7 @@ header{
 	font-size: 40px;
 	color: #FA9284;
 	font-weight: bold;
+	padding-left: 40px;
 }
 #display2, #display3, #display4, #display5, #display6, #display7, #display8, #display9{
 	color: black;
