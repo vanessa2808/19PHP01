@@ -7,7 +7,7 @@
 <body>
 <header>
 <h1>Electric Bill</h1>
-<form action="#" id="form">
+<form class="form" action="#" id="form" method="get">
 	<p>Name: <input id="name" type="text" name="Name" placeholder="Vanessa"><span id="errorName"></span></p>
 	<p>Address: <input id="address" type="text" name="address"><span id="errorAddress"></span></p>
 	<p>Phone number: <input id="phone" type="text" name="Phone"><span id="errorPhone"></span></p>
@@ -15,8 +15,8 @@
 	<p>The last day  period: <input id="last" type="date" name="last"><span id="errorLast"></span></p>
 	<p>The first number: <input id="number1" type="text" name="first1"><span id="errorNumber1"></span></p>
 	<p>The last number: <input id="number2" type="text" name="first2"><span id="errorNumber2"></span></p>
-	<p>Note: <input id="note" type="text" name="Note" placeholder="Write down your comment....."></p>
-	<p><input class="press" type="button" name="submit" value="Register" onclick="checkForm()"></p>
+	<p>Note: <textarea rows="10" id="note" type="text" name="Note" placeholder="Write down your comment....."></textarea></p>
+	<p><input class="press" type="button" name="submit" value="Register"></p>
 	<p><input class="press1" type="button" name="print" value="print" onclick="printPersonalInformation()"></p>
 	<p><input class="press2" type="button" name="calculate" value="calculate" onclick="calculateEle()"></p>
 	<br/>
@@ -35,6 +35,7 @@
 	<div id="display9"></div>
 </div>
 <script type="text/javascript" src="../js/jquery-3.4.0.min.js"></script>
-<script type="text/javascript" src="../js/excercise.js"></script>
+<script type="text/javascript" src="../js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="../js/excercise1.js"></script>
 </body>
 </html>
