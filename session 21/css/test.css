@@ -1,0 +1,25 @@
+.col-xs-12{
+	background-color: orange;
+	border:1px solid grey;
+	height: 100px;
+}
+.col-sm-6{
+	background-color: orange;
+	border:1px solid grey;
+	height: 100px;
+}
+.col-md-12{
+	background-color: green;
+	border:1px solid grey;
+	height: 100px;
+}
+.col-md-3{
+	background-color: grey;
+	border:1px solid grey;
+	height: 100px;
+}
+.col-md-4{
+	background-color: blue;
+	border:1px solid grey;
+	height: 100px;
+}

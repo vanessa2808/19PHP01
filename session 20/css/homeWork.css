@@ -1,18 +1,13 @@
     
 /* Position the image container (needed to position the left and right arrows) */
-.container {
-  position: relative;
-  width:90%;
-  height: 500px;
-  margin: 10px auto;
-  border: 1px solid pink;
-}
 
 /* Hide the images by default */
 .mySlides {
   display: none;
 }
-
+.container{
+  position: relative;
+}
 /* Next & previous buttons */
 .prev, .next {
   position: absolute;
@@ -93,23 +88,45 @@ ul li a{
   font-size: 60px;
 
 }
+.button1{
+  height: 60px;
+  width: 100px;
+  margin-left: 480px;
+  list-style-type: none;
+}
+.button1, .button2{
+  height: 60px;
+  width: 100px;
+  border-radius: 10px;
+  border-color: #FF8C94;
+  background-color: white;
+  color: #FF8C94;
+  list-style-type: none;
+  font-size: 30px;
+}
 #leaf{
   padding-left: 400px;
 }
 #logo{
   text-align: center;
 }
-.button1{
-  margin-left: 480px;
-}
-.button1, .button2, select{
+
+select{
   height: 35px;
-  width: 100px;
+  width: 140px;
   border-radius: 40px;
   border-color: #FF8C94;
   background-color: white;
   color: #FF8C94;
-
+  list-style-type: none;
+  margin-left: 40px;
+  margin-top: -10px;
+  font-size: 25px;
+}
+footer{
+  width: 100%;
+  height: 300px;
+  background-color: #FFAAA6;
 }
 @media(max-width: 1000px){
   .mainToobar{
