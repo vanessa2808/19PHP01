@@ -1,0 +1,25 @@
+.mainDiv{
+	background-color: orange;
+	height: 50px;
+	margin:2px;
+}
+.mainDiv1{
+	background-color: orange;
+	height:200px;
+	margin:2px;
+}
+.mainDiv2{
+	background-color: orange;
+	height: 50px;
+	margin:2px;
+	margin-right: 16px;
+}
+.mainDiv3{
+	background-color: orange;
+	height:200px;
+	margin:2px;
+	margin-left: -13px;
+}
+.place{
+	margin-top: 100px;
+}
